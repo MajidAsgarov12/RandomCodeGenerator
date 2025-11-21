@@ -10,7 +10,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 
     if($input === $correctPassword){
        
-        $result = bin2hex(random_bytes(32)); 
+        $result = bin2hex(random_bytes(16)); 
     } else {
         $result = "Şifrə səhvdir!";
     }
